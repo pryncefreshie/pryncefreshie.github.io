@@ -1,1 +1,82 @@
-"Hello world" 
+.float-example {
+  width: 960px;
+  margin: 0 auto; /* centers the div */
+}
+
+header {
+  color: white;
+  background: #1446a0;
+  text-align: center;
+  padding: 15px;
+}
+
+article {
+/*   float: left;
+  width: 60%;
+  margin-right: 5%; */
+}
+
+aside {
+/*   float: right;
+  width: 35%;
+  background: #f5d547; */
+}
+
+footer {
+/*   clear: both; */
+  background: #3c3c3b;
+  color: white;
+  padding: 10px;
+}
+
+p.solid {
+  border-style: solid;
+  border-color: white;
+  }
+
+  body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
+
+.main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+img {
+    border-radius: 50%;
+}
+
+p.bottom {
+    border-bottom: 3px solid black;
+    background-color: lightgrey;
+}
