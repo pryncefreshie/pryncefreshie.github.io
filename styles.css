@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 .header{
-    background-color: grey;
+    background-color: #3d004d;
     color: white;
     padding: 15px;
 }
@@ -40,7 +40,7 @@
 }
 
 .flex-container > div {
-  background-color: grey;
+  background-color: #3d004d;
   color: white;
   width: 100px;
   margin: 10px;
